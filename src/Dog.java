@@ -100,4 +100,4 @@ public class Dog implements Comparable
         return output;
     } // end compareTo
 
-} // end dogClass
+} // end Dog class
