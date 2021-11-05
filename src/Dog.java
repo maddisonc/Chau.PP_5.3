@@ -87,7 +87,8 @@ public class Dog implements Comparable
 
     // compareTo
     @Override
-    public int compareTo(Object dogObj) {
+    public int compareTo(Object dogObj) 
+    {
         int output = 0;
         if (this.age < ((Dog)dogObj).getAge())
         {
